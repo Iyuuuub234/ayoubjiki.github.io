@@ -1,0 +1,171 @@
+Tu es un designer & développeur web senior spécialisé en expériences 3D immersives.
+Crée un portfolio web narratif, interactif et cinématique pour Ayoub Jiki, développeur Full-Stack Web, en t’inspirant fortement de l’expérience utilisateur et de la direction artistique du site landonorris.com.
+
+🎬 CONCEPT GLOBAL
+
+Le portfolio doit être conçu comme une histoire interactive racontant le parcours d’Ayoub, depuis sa découverte du développement jusqu’à ses projets les plus avancés.
+Chaque section est un chapitre, déclenché par le scroll vertical, combiné à des effets de zoom in / zoom out en Three.js.
+
+L’expérience doit donner l’impression de traverser un univers numérique vivant, fluide, moderne et minimaliste.
+
+🧠 STRUCTURE NARRATIVE (Storytelling)
+Chapitre 1 – Introduction / Identité
+
+Texte central animé :
+
+“AYOUB JIKI”
+
+Développeur Web Full-Stack
+
+Stack mise en avant : React.js • PHP • MySQL
+
+Animation Three.js :
+
+Caméra qui zoom doucement depuis le vide vers un espace 3D abstrait
+
+Particules, lignes ou formes géométriques représentant le code
+
+Ambiance :
+
+Minimaliste
+
+Couleurs sobres (noir, gris foncé, blanc, accent bleu ou violet)
+
+Chapitre 2 – Profil & Vision
+
+Texte narratif animé :
+
+Développeur full-stack Bac+2
+
+4 mois d’expérience en startup (Bewize)
+
+Passion pour les applications modernes, connectées et gamifiées
+
+Effet visuel :
+
+Scroll → zoom in sur une scène représentant la créativité et l’innovation
+
+Transitions douces avec easing
+
+Chapitre 3 – Projets Académiques (Cœur du Portfolio)
+Projet 1 : TICKETTIME
+
+Présentation immersive :
+
+Plateforme de billetterie en ligne
+
+React (front) + PHP/MySQL (back)
+
+Réservation, paiement, génération de tickets électroniques
+
+Architecture 3-tiers, méthodologie Agile
+
+Effet visuel :
+
+Scroll vertical → caméra traverse des “cards 3D”
+
+Zoom sur des écrans flottants simulant l’interface du projet
+
+Projet 2 : Bewize Store
+
+Présentation :
+
+Boutique connectée avec gamification
+
+Backend Express.js
+
+Achat par coins ou carte bancaire
+
+Design gamifié conçu sur Figma
+
+Effet visuel :
+
+Icônes 3D, animations ludiques
+
+Zoom in dynamique sur les mécaniques de jeu
+
+Chapitre 4 – Compétences
+
+Affichage sous forme d’univers 3D interactif :
+
+Front-end : React, HTML, CSS, JavaScript
+
+Back-end : PHP, Node.js, Express, Laravel
+
+Base de données : MySQL
+
+Outils : Git, GitHub, VS Code, Postman, Stripe API
+
+Design : Figma
+
+Méthodes : Agile, Cycle en V, Architecture 3-tiers
+
+Scroll :
+
+Chaque compétence apparaît avec un zoom progressif
+
+Chapitre 5 – Expériences
+
+Timeline verticale animée :
+
+Bewize – Stage 4 mois
+
+Guichet Maroc – Stage 15 jours
+
+Jewelry Secret – Stage 15 jours
+
+Animation :
+
+Scroll vertical = déplacement dans le temps
+
+Effet parallaxe + profondeur
+
+Chapitre 6 – Éducation
+
+Baccalauréat Sciences Physiques (2022–2023)
+
+Informatique Full-Stack (2023–2025)
+
+Bachelor Développement d’Applications (2025–2026, en cours)
+
+Design :
+
+Univers académique stylisé en 3D
+
+Chapitre 7 – Contact & Conclusion
+
+Message final :
+
+Motivation, curiosité, passion pour les défis techniques
+
+Coordonnées :
+
+Email, téléphone, LinkedIn
+
+Animation finale :
+
+Zoom out lent vers l’espace
+
+Fin cinématique
+
+🛠️ TECHNOLOGIES À UTILISER
+
+Three.js pour la 3D
+
+Scroll-based animation (GSAP / ScrollTrigger)
+
+Performance optimisée
+
+Responsive desktop & mobile
+
+🎨 DIRECTION ARTISTIQUE
+
+Style premium, moderne, minimaliste
+
+Inspiration directe : landonorris.com
+
+Transitions fluides, aucune animation brutale
+
+Typographie élégante et lisible
+
+Le résultat final doit être un portfolio expérientiel haut de gamme, capable d’impressionner des recruteurs techniques, startups et entreprises innovantes.
