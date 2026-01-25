@@ -173,8 +173,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ProjectCard 
               title="Oufaris Drive Car" 
-              description="A modern car rental platform designed for a seamless user experience. Allows browsing vehicles, selecting dates, and booking online easily. Visit: https://www.oufarisdrivecar.ma"
+              description="A modern car rental platform designed for a seamless user experience. Allows browsing vehicles, selecting dates, and booking online easily."
               tags={["TypeScript", "Responsive", "Modern UI"]}
+              liveUrl="https://www.oufarisdrivecar.ma"
               delay={0.05}
             />
             <ProjectCard 

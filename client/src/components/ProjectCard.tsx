@@ -7,9 +7,11 @@ interface ProjectCardProps {
   tags: string[];
   image?: string;
   delay?: number;
+  liveUrl?: string;
+  githubUrl?: string;
 }
 
-export function ProjectCard({ title, description, tags, image, delay = 0 }: ProjectCardProps) {
+export function ProjectCard({ title, description, tags, image, delay = 0, liveUrl, githubUrl }: ProjectCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -41,12 +43,26 @@ export function ProjectCard({ title, description, tags, image, delay = 0 }: Proj
         </p>
         
         <div className="flex gap-4">
-          <button className="flex items-center gap-2 text-sm text-white/80 hover:text-white font-medium transition-colors">
-            <ExternalLink size={16} /> View Live
-          </button>
-          <button className="flex items-center gap-2 text-sm text-white/80 hover:text-white font-medium transition-colors">
-            <Github size={16} /> Source Code
-          </button>
+          {liveUrl && (
+            <a 
+              href={liveUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-white/80 hover:text-white font-medium transition-colors"
+            >
+              <ExternalLink size={16} /> View Live
+            </a>
+          )}
+          {githubUrl && (
+            <a 
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-white/80 hover:text-white font-medium transition-colors"
+            >
+              <Github size={16} /> Source Code
+            </a>
+          )}
         </div>
       </div>
     </motion.div>
