@@ -76,7 +76,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-primary font-mono text-lg mb-4 tracking-widest uppercase"
           >
-            Portfolio 2025
+            Portfolio
           </motion.p>
           
           <motion.h1 
@@ -125,7 +125,7 @@ export default function Home() {
                 robust web applications.
               </p>
               <p>
-                Currently expanding my expertise with a Bachelor's degree, I combine academic 
+                Currently expanding my expertise with a Bachelor's degree (Dacs), I combine academic 
                 foundations with real-world startup agility, having spent 4 months at <strong className="text-white font-medium">Bewize</strong>.
               </p>
               <div className="pt-8 flex gap-4">
@@ -171,6 +171,12 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <ProjectCard 
+              title="Oufaris Drive Car" 
+              description="A modern car rental platform designed for a seamless user experience. Allows browsing vehicles, selecting dates, and booking online easily. Visit: https://www.oufarisdrivecar.ma"
+              tags={["TypeScript", "Responsive", "Modern UI"]}
+              delay={0.05}
+            />
             <ProjectCard 
               title="TICKETTIME" 
               description="A comprehensive ticketing platform allowing users to book events seamlessly. Built with a robust PHP backend and interactive React frontend."
@@ -342,19 +348,19 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4 text-gray-300">
                   <Mail className="text-primary" />
-                  <a href="mailto:contact@ayoubjiki.com" className="hover:text-white transition-colors">contact@ayoubjiki.com</a>
+                  <a href="mailto:ayoubjiki101@gmail.com" className="hover:text-white transition-colors">ayoubjiki101@gmail.com</a>
                 </div>
                 <div className="flex items-center gap-4 text-gray-300">
                   <MapPin className="text-primary" />
-                  <span>Casablanca, Morocco</span>
+                  <span>Agadir, Morocco</span>
                 </div>
               </div>
 
               <div className="flex gap-4">
-                <a href="#" className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors border border-white/10">
+                <a href="https://www.linkedin.com/in/ayoub-jiki-7b28072bb/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors border border-white/10">
                   <Linkedin size={20} />
                 </a>
-                <a href="#" className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors border border-white/10">
+                <a href="https://github.com/Iyuuuub234" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-white transition-colors border border-white/10">
                   <Github size={20} />
                 </a>
               </div>
@@ -423,7 +429,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 text-center text-white/30 text-sm border-t border-white/5 bg-black">
-        <p>&copy; 2025 Ayoub Jiki. All rights reserved.</p>
+        <p>&copy; Ayoub Jiki. All rights reserved.</p>
         <p className="mt-2 text-xs font-mono">Designed & Built with React Three Fiber</p>
       </footer>
     </div>
