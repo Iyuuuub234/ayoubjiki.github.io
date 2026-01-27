@@ -7,9 +7,18 @@ import { useScroll, useTransform } from 'framer-motion';
 function StarField(props: any) {
   const ref = useRef<any>();
   const [sphere] = useMemo(() => {
-    // Generate random points in a sphere
-    const data = random.inSphere(new Float32Array(5000), { radius: 1.5 }) as Float32Array;
-    return [data];
+    try {
+      // Generate random points in a sphere
+      const data = random.inSphere(new Float32Array(5000), { radius: 1.5 }) as Float32Array;
+      // Sanity check for NaN values which can crash Three.js rendering
+      for (let i = 0; i < data.length; i++) {
+        if (isNaN(data[i])) data[i] = 0;
+      }
+      return [data];
+    } catch (e) {
+      console.error("Error generating sphere points:", e);
+      return [new Float32Array(5000).fill(0)];
+    }
   }, []);
 
   useFrame((state, delta) => {
