@@ -158,7 +158,8 @@ export default function Home() {
               <div className="pt-8 flex gap-4">
                 <a
                   href="/assets/resume.pdf"
-                  className="px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200 transition-colors"
+                  download="Ayoub_Jiki_CV.pdf"
+                  className="px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200 transition-colors inline-flex items-center justify-center"
                 >
                   Download CV
                 </a>
